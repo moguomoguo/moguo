@@ -1,0 +1,270 @@
+#main {
+    width: 100%;
+}
+
+#main .goods p {
+    margin: 10px 0;
+}
+
+#main .goods p a {
+    color: #000;
+    opacity: 1;
+    background: none;
+}
+
+.tb-pic {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.tb-booth img {
+    vertical-align: middle;
+    width: 312px;
+    height: 312px;
+}
+
+.tb-pic {
+    *display: block;
+    *font-family: Arial;
+    *line-height: 1;
+}
+
+.tb-thumb {
+    margin: 10px 0 0;
+    overflow: hidden;
+}
+
+.good ul {
+    width: 312px;
+}
+
+.tb-thumb li {
+    background: none repeat scroll 0 0 transparent;
+    float: left;
+    height: 42px;
+    margin: 0 6px 0 0;
+    overflow: hidden;
+    padding: 1px;
+}
+
+.tb-thumb li img {
+    width: 40px;
+    height: 40px;
+    margin: 0 6px;
+}
+
+.tb-s310,
+.tb-s310 a {
+    height: 310px;
+    width: 310px;
+}
+
+.tb-s310,
+.tb-s310 img {
+    max-height: 310px;
+    max-width: 310px;
+}
+
+.tb-s310 a {
+    *font-size: 271px;
+}
+
+.tb-s40 a {
+    *font-size: 35px;
+}
+
+.tb-s40,
+.tb-s40 a {
+    height: 40px;
+    width: 40px;
+}
+
+.tb-booth {
+    border: 1px solid #CDCDCD;
+    position: relative;
+    z-index: 1;
+}
+
+.tb-thumb .tb-selected {
+    background: none repeat scroll 0 0;
+    height: 40px;
+    padding: 2px;
+}
+
+.tb-thumb .tb-selected div {
+    background-color: #FFFFFF;
+    border: medium none;
+}
+
+.tb-thumb li div {
+    border: 1px solid #CDCDCD;
+}
+
+div.zoomDiv {
+    z-index: 999;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 200px;
+    height: 200px;
+    background: #ffffff;
+    border: 1px solid #CCCCCC;
+    display: none;
+    text-align: center;
+    overflow: hidden;
+}
+
+div.zoomMask {
+    position: absolute;
+    background: url("../images/mask.png") repeat scroll 0 0 transparent;
+    cursor: move;
+    z-index: 1;
+}
+
+#main .goods {
+    height: 450px;
+}
+
+#main .goods .good .good_right {
+    margin-left: 50px;
+    width: 846px;
+}
+
+#main .goods .good .good_right h2 {
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+#main .goods .good .good_right .nowprice {
+    font-weight: bolder;
+    color: red;
+}
+
+#main .goods .good .good_right .hot span {
+    color: #f60;
+}
+
+#main .goods .good .list {
+    margin: 20px 0 10px 50px;
+    width: 846px;
+}
+
+#main .goods .good .list ul {
+    width: 500px;
+    font-size: 14px;
+    border-top: 1px dashed #ccc;
+    border-bottom: 1px dashed #ccc;
+}
+
+#main .goods .good .list li {
+    width: 500px;
+    margin: 5px 0;
+}
+
+#main .goods .good .list span {
+    background: #f60;
+    margin-right: 10px;
+    color: #ffffff;
+}
+
+#main .goods .good .list .num input {
+    border: 1px solid #ccc;
+    width: 50px;
+    height: 20px;
+}
+
+#main .goods .good .list .num span {
+    display: block;
+    text-align: center;
+    width: 30px;
+    height: 20px;
+}
+
+#main .goods .good .list .num .num_1 {
+    width: 100px;
+    background: none;
+    color: #000;
+}
+
+#main .goods .good .buy {
+    margin-left: 50px;
+    width: 846px;
+    float: left;
+}
+
+#main .goods .good .buy .buynow {
+    float: left;
+    margin: 0px 0px 0px 10px;
+    width: 160px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 18px;
+    color: #fff;
+    padding: 5px;
+    border-radius: 3px;
+    background: #fef2e8;
+    text-align: center;
+    border: 1px #fd7400 solid;
+}
+
+#main .goods .good .buy a {
+    font-size: 15px;
+    color: #fd7400;
+    opacity: 1;
+    background: none;
+}
+
+#main .goods .good .buy .addcar {
+    float: left;
+    margin: 0px 0px 0px 40px;
+    width: 120px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 18px;
+    color: #fff;
+    padding: 5px 0px 5px 50px;
+    border-radius: 3px;
+    background: url(../images/buy-add.png) 8px 5px no-repeat #fd7400;
+    border: 1px #e16700 solid;
+}
+
+#main .goods .good .buy .addcar a {
+    color: #fff;
+}
+
+#messsage .tab {
+    width: 100%;
+    height: 300px;
+}
+
+.tab {
+    border: 2px solid #ddd;
+    padding: 2px;
+}
+
+.tab header {
+    padding-bottom: 2px;
+    border-bottom: 2px solid #ddd;
+    overflow: hidden;
+}
+
+.tab header div {
+    float: left;
+    padding: 5px 15px;
+    border-right: 1px solid #ddd;
+}
+
+.tab .active {
+    background-color: #fc0;
+}
+
+.tab .content {
+    padding: 15px;
+    min-height: 100px;
+}
+
+.carlist img {
+    width: 30px;
+    height: 30px;
+}

@@ -1,0 +1,10 @@
+$(function(){
+	$('.list-nr-ri-content > ul >li').mouseenter(function() {	
+		var id=this.id.replace('g-','');
+		$('#c-'+id).removeClass();
+	});
+	  $(".list-nr-ri-content > ul >li").mouseleave(function(){
+		   var id=this.id.replace('g-','');
+			$('#c-'+id).addClass('he-view');
+	  });
+});

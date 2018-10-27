@@ -1,0 +1,771 @@
+#head {
+    font-size: 14px;
+    height: 30xp;
+    line-height: 30px;
+}
+
+#head a {
+    color: black;
+}
+
+#head b {
+    color: #58bc58;
+}
+
+#head .top .fl i {
+    margin: 3px 3px 0 10px;
+    float: left;
+    display: block;
+    width: 12px;
+    height: 27px;
+    background: url("../images/icon.png") no-repeat;
+}
+
+#head .top .fr ul {
+    display: inline;
+    width: 500px;
+}
+
+#head .top .fr ul li {
+    float: left;
+    padding: 0 30px;
+    color: black;
+    border-right: 1px solid #ccc;
+}
+
+#head .top .fr ul .last {
+    border: none;
+}
+
+#head .logo {
+    height: 90px;
+    background-color: #e0e0e0;
+}
+
+#head .logo .left {
+    display: inline;
+    width: 254px;
+    height: 66px;
+    background: url("../images/logo.png") no-repeat;
+    margin-top: 10px;
+}
+
+#head .logo .center {
+    display: inline;
+    width: 561px;
+    height: 53px;
+    font-size: 12px;
+    padding: 25px 0 0 20px;
+}
+
+#head .logo .center input {
+    display: inline;
+    float: left;
+    width: 478px;
+    height: 30px;
+    line-height: 30px;
+    border: 1px #fd7400 solid;
+    padding-left: 11px;
+}
+
+#head .logo .center i {
+    display: block;
+    float: left;
+    width: 70px;
+    height: 32px;
+    background: url("../images/search.png") no-repeat;
+}
+
+#head .logo .center ul li {
+    float: left;
+    color: black;
+    padding: 0 10px;
+}
+
+#head .logo .right .car {
+    width: 180px;
+    height: 30px;
+    background: #fff;
+    border: 1px solid #fd7400;
+    padding: 5px 10px;
+    margin: 20px 20px 0 0;
+}
+
+#head .logo .right .car .car_1 {
+    display: block;
+    width: 38px;
+    height: 20px;
+    background: url("../images/header-img.png") no-repeat;
+    background-position: -112px 0;
+    line-height: 30px;
+    margin: 15px 0px 15px 20px;
+}
+
+#head .logo .right .car .car_1 b {
+    float: left;
+    text-align: center;
+    color: #fff;
+    font-size: 12px;
+    position: relative;
+    top: -15px;
+    left: 3px;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    background: #fd7400;
+    line-height: 22px;
+}
+
+#head .logo .right .car .list {
+    display: block;
+    width: 10px;
+    height: 15px;
+    background: url("../images/list-arrow.png") no-repeat;
+    margin-top: 8px;
+}
+
+#head .logo .right .car span {
+    color: #fd7400;
+    padding: 0 10px;
+}
+
+#head .logo .right .car .carlist {
+    width: 328px;
+    border: 1px solid #fd7400;
+    border-top: none;
+    height: 182px;
+    background: #fff;
+    position: absolute;
+    right: 90px;
+    top: 211px;
+    display: none;
+}
+
+#head .container .daohang {
+    height: 40px;
+    font-size: 15px;
+    text-align: center;
+    line-height: 40px;
+    background: #fd7400;
+    color: #fff;
+    padding-left: 20px;
+}
+
+#head .container .daohang .feilei {
+    width: 130px;
+}
+
+#head .container .daohang i {
+    display: block;
+    width: 20px;
+    height: 20px;
+    background: url("../images/header-img.png")no-repeat;
+    background-position: -15px 0;
+    margin: 18px 0 0 5px;
+}
+
+#head .container .daohang ul {
+    color: #000;
+}
+
+#head .container .daohang ul li {
+    float: left;
+    padding: 0 15px;
+    font-weight: bolder;
+}
+
+#head .container .daohang ul .li_1 {
+    margin-left: 10px;
+    color: #fd7400;
+    color: #000;
+}
+
+#head .container .zonglei {
+    display: none;
+    width: 800px;
+    height: 220px;
+}
+
+#head .container .zonglei ul {
+    float: left;
+}
+
+#head .container .zonglei span {
+    font-size: 16px;
+    font-weight: bolder;
+    float: left;
+    border-right: 2px solid #fd7400;
+    padding: 0 15px;
+}
+
+#head .container .zonglei b {
+    font-size: 15px;
+    border-right: 1px solid #fd7400;
+    padding: 0 10px;
+}
+
+#head .container .zonglei ul>li {
+    float: left;
+    padding: 0 5px;
+}
+
+.swiper-pagination-bullet {
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    color: #fff;
+    background: #666;
+}
+
+.swiper-pagination-bullet-active {
+    color: #fff;
+    background: orangered;
+}
+
+#main .theone ul {
+    margin-top: 15px;
+    width: 1220px;
+}
+
+#main a {
+    color: #000;
+    opacity: 0;
+    background: #ff4400;
+}
+
+#main .theone .one li {
+    position: relative;
+    overflow: hidden;
+    float: left;
+    display: inline;
+    width: 290px;
+    height: 320px;
+    padding: 10px 6px 10px 6px;
+}
+
+#main .theone .one .first {
+    padding-left: 0;
+}
+
+#main .thetwo .left {
+    position: relative;
+    float: left;
+    width: 698px;
+    background: #fff;
+}
+
+#main .thetwo .right {
+    width: 500px;
+}
+
+#main .thetwo .right .biaoti {
+    float: right;
+    width: 500px;
+    height: 68px;
+    background: #a1d22b;
+    text-align: center;
+}
+
+#main .thetwo .right .biaoti .biaoti_left {
+    display: block;
+    width: 388px;
+    height: 388px;
+}
+
+#main .thetwo .right .biaoti_right ul li {
+    margin-top: 9px;
+}
+
+#main .thethree img {
+    margin: 15px 0;
+}
+
+#main .four_left .four_left_one .one {
+    float: left;
+    display: block;
+    width: 365px;
+    height: 88px;
+    background: url("../images/index-content-two.png") 0px 0px no-repeat;
+}
+
+#main .four_left .four_left_one span {
+    font-size: 18px;
+    padding-left: 100px;
+    width: 265px;
+    line-height: 88px;
+    color: #fff;
+}
+
+#main .four_right {
+    margin-left: 9px;
+}
+
+#main .four_right .four_right_one {
+    border: 1px solid #ccc;
+    height: 266px;
+}
+
+#main .four_right li {
+    width: 214px;
+    height: 266px;
+    float: left;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+
+#main .four_right li img {
+    width: 180px;
+    height: 180px;
+    margin-bottom: 10px;
+}
+
+#main .four_right li .title {
+    height: 40px;
+}
+
+#main .four_right li .fl {
+    float: left;
+    font-size: 18px;
+    margin: 5px 5px 0px 5px;
+    text-align: left;
+    color: #ff4400;
+    font-weight: bold;
+}
+
+#main .four_right li .fr {
+    float: right;
+    width: 90px;
+    line-height: 25px;
+    height: 25px;
+    margin: 5px 5px 0px 5px;
+    font-weight: normal;
+    text-decoration: line-through;
+}
+
+#main .four_right .four_right_four {
+    display: block;
+    width: 400px;
+    float: left;
+    height: 266px;
+    border: 1px solid #ccc;
+}
+
+#main .thefive img {
+    margin: 10px 0;
+}
+
+#main .four_left .four_left_one .two {
+    float: left;
+    display: block;
+    width: 365px;
+    height: 88px;
+    background: url("../images/index-content-two.png") 0px 0px no-repeat;
+    background-position: 0 -92px;
+}
+
+#main .theseven img {
+    margin: 10px 0;
+}
+
+#main .four_left .four_left_one .three {
+    float: left;
+    display: block;
+    width: 365px;
+    height: 88px;
+    background: url("../images/index-content-two.png") 0px 0px no-repeat;
+    background-position: 0 -182px;
+}
+
+#main .thenine img {
+    margin: 10px 0;
+}
+
+#main .four_left .four_left_one .four {
+    float: left;
+    display: block;
+    width: 365px;
+    height: 88px;
+    background: url("../images/index-content-two.png") 0px 0px no-repeat;
+    background-position: 0 -273px;
+}
+
+#main .four_left .four_left_one .five {
+    float: left;
+    display: block;
+    width: 365px;
+    height: 88px;
+    background: url("../images/index-content-two.png") 0px 0px no-repeat;
+    background-position: 0 -364px;
+}
+
+#main .four_left .four_left_one .six {
+    float: left;
+    display: block;
+    width: 365px;
+    height: 88px;
+    background: url("../images/index-content-two.png") 0px 0px no-repeat;
+    background-position: 0 -729px;
+}
+
+#main .four_left .four_left_one .seven {
+    float: left;
+    display: block;
+    width: 365px;
+    height: 88px;
+    background: url("../images/index-content-two.png") 0px 0px no-repeat;
+    background-position: 0 -455px;
+}
+
+#main .theten,
+.theeleven,
+.thetwelve,
+.thethirteen {
+    height: 534px;
+    margin-top: 30px;
+}
+
+#link {
+    width: 100%;
+    background: #fd7400;
+    margin-top: 50px;
+    position: relative;
+}
+
+#link .youdian {
+    height: 120px;
+}
+
+#link .youdian ul li {
+    float: left;
+    width: 240px;
+    color: #fff;
+}
+
+#link .youdian ul li .title {
+    float: left;
+    width: 150px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: left;
+}
+
+#link .youdian ul li span {
+    float: left;
+    width: 150px;
+    padding-top: 5px;
+    font-size: 12px;
+}
+
+#link .youdian ul li div {
+    padding-top: 30px;
+}
+
+#link .newslist .list {
+    width: 892px;
+}
+
+#link .newslist .list .news {
+    float: left;
+    width: 850px;
+    padding: 10px 20px;
+    margin: 20px 0px 10px 0px;
+    border: 1px #ccc solid;
+}
+
+#link .newslist .list .news .all {
+    float: left;
+    width: 850px;
+    font-size: 18px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+#link .newslist .list .news .newses {
+    float: left;
+    width: 620px;
+    margin-left: 10px;
+}
+
+#link .newslist .list .news .newses li {
+    float: left;
+    width: 620px;
+    padding: 0px 10px 10px 10px;
+}
+
+#link .newslist .list .news .newses p {
+    float: left;
+    font-size: 12px;
+    width: 620px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+#link .newslist .list .bt-lf {
+    float: left;
+    width: 850px;
+    padding: 20px;
+    margin: 20px 0px;
+}
+
+#link .newslist .list .bt-lf ul {
+    float: left;
+    width: 210px;
+    height: 110px;
+}
+
+#link .newslist .list .bt-lf ul li {
+    font-size: 12px;
+}
+
+#link .newslist .list .bt-lf ul li span {
+    font-size: 14px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+#link .newslist .img .tonggao {
+    float: right;
+    width: 290px;
+    padding: 20px 0px 20px 15px;
+}
+
+#link .newslist .img .tonggao ul li {
+    float: left;
+    width: 275px;
+    padding-bottom: 8px;
+}
+
+#fix {
+    width: 43px;
+    height: 100%;
+    position: fixed;
+    background: #000000;
+    z-index: 2;
+    top: 0;
+    right: 0;
+    color: #fff;
+}
+
+#fix .top ul {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    margin-top: -190px;
+    *margin-top: -220px;
+    background: #000000;
+    z-index: 2;
+    width: 40px;
+}
+
+#fix .top ul li {
+    position: relative;
+}
+
+#fix .top ul li .geren {
+    background: url("../images/ibar_sprites.png") no-repeat 10px 6px;
+    width: 35px;
+    height: 35px;
+    top: 2px;
+    left: 3px;
+    display: block;
+}
+
+#fix .top ul li .car {
+    display: block;
+    background: url("../images/ibar_sprites.png") no-repeat;
+    background-position: 0px -29px;
+    width: 23px;
+    height: 18px;
+    position: absolute;
+    top: -25px;
+    left: 12px;
+}
+
+#fix .top ul li .span {
+    width: 16px;
+    display: block;
+    height: 48px;
+    margin: 70px 0 0 14px;
+    cursor: pointer;
+}
+
+#fix .top ul li span {
+    width: 21px;
+    height: 21px;
+    display: block;
+    border-radius: 50%;
+    background: #fd7400;
+    text-align: center;
+    line-height: 21px;
+    margin: 25px 0 0 12px;
+    cursor: pointer;
+    color: #fff;
+}
+
+#fix .top ul li .zuji {
+    display: block;
+    width: 11px;
+    height: 24px;
+    background: url("../images/ibar_sprites.png") no-repeat;
+    background-position: -4px -110px;
+    position: absolute;
+    top: 20px;
+    left: 16px;
+}
+
+#fix .top ul li .shoucang {
+    display: block;
+    width: 35px;
+    height: 35px;
+    background: url("../images/ibar_sprites.png") no-repeat;
+    background-position: 10px -75px;
+    position: absolute;
+    top: 55px;
+    left: 4px;
+}
+
+#fix .bottom ul li .kefu {
+    display: block;
+    width: 25px;
+    height: 25px;
+    background: url("../images/kf.png") no-repeat -3px 0;
+    position: absolute;
+    bottom: 90px;
+    left: 12px;
+}
+
+#fix .bottom ul li .phone {
+    display: block;
+    width: 20px;
+    height: 20px;
+    background: url("../images/ibar_sprites.png") no-repeat 0 -172px;
+    position: absolute;
+    bottom: 50px;
+    left: 12px;
+}
+
+#fix .bottom ul li span {
+    position: absolute;
+    bottom: 0;
+    left: 6px;
+}
+
+#head_nav {
+    width: 100%;
+    height: 90px;
+    min-width: 1208px;
+    width: 100%;
+    z-index: 9999;
+    position: fixed;
+    top: 0;
+    font-size: 12px;
+    background: rgba(51, 51, 51, 0.8);
+    display: none;
+}
+
+#head_nav .logo {
+    float: left;
+    width: 254px;
+    height: 66px;
+    line-height: 66px;
+    margin: 10px 25px 10px 0px;
+}
+
+#head_nav .head_car {
+    width: 180px;
+    height: 30px;
+    background: #fff;
+    border: 1px solid #fd7400;
+    padding: 5px 10px;
+    margin: 20px 20px 0 0;
+}
+
+#head_nav .head_car .head_car_1 {
+    display: block;
+    width: 38px;
+    height: 20px;
+    background: url("../images/header-img.png") no-repeat;
+    background-position: -112px 0;
+    line-height: 30px;
+    margin: 15px 0px 15px 20px;
+}
+
+#head_nav .head_car .head_car_1 b {
+    float: left;
+    text-align: center;
+    color: #fff;
+    font-size: 12px;
+    position: relative;
+    top: -15px;
+    left: 3px;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    background: #fd7400;
+    line-height: 22px;
+}
+
+#head_nav .head_car .list {
+    display: block;
+    width: 10px;
+    height: 15px;
+    background: url("../images/list-arrow.png") no-repeat;
+    margin-top: 8px;
+}
+
+#head_nav .head_car span {
+    color: #fd7400;
+    padding: 5px 10px;
+    font-size: 14px;
+}
+
+#head_nav .head_car .head_carlist {
+    width: 328px;
+    border: 1px solid #fd7400;
+    border-top: none;
+    height: 100px;
+    background: #fff;
+    position: absolute;
+    right: 90px;
+    top: 61px;
+    display: none;
+}
+
+#head_nav .center {
+    display: inline;
+    width: 561px;
+    height: 53px;
+    font-size: 12px;
+    padding: 25px 0 0 20px;
+}
+
+#head_nav .center input {
+    display: inline;
+    float: left;
+    width: 478px;
+    height: 30px;
+    line-height: 30px;
+    border: 1px #fd7400 solid;
+    padding-left: 11px;
+}
+
+#head_nav .center i {
+    display: block;
+    float: left;
+    width: 70px;
+    height: 32px;
+    background: url("../images/search.png") no-repeat;
+}
+
+#head_nav .center ul li {
+    float: left;
+    color: black;
+    padding: 0 10px;
+}
+
+.carlist img {
+    width: 30px;
+    height: 30px;
+}

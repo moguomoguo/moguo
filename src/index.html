@@ -1,0 +1,746 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>首页</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/swiper.css" />
+    <link rel="stylesheet" href="css/index.css">
+    <script src="js/jquery-1.10.1.min.js"></script>
+    <script src="js/swiper.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/common.js"></script>
+    <script src="js/index.js"></script>
+</head>
+
+<body>
+    <div id="all">
+
+        <div id="head">
+            <div class="container top">
+                <div class="fl">
+                    <span class="fl">欢迎光临优谷网</span>
+                    <a href="javascript"><b><i></i> 收藏依谷网</b></a>
+                </div>
+                <div class="fr">
+                    <ul>
+                        <li><a href="html/login.html"> 登录</a></li>
+                        <li><a href="html/reg.html"> 注册</a></li>
+                        <li><a href="html/car.html"> 购物车</a></li>
+                        <li class="last">关注依谷网</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="weixin">
+                <img src="./images/wxye.png">
+            </div>
+            <div class="logo">
+                <div class="container">
+                    <div class="left fl"></div>
+                    <div class="center fl">
+                        <input type="text" placeholder="请输入想购买的商品">
+                        <i></i>
+                        <ul>
+                            <li>柚子</li>
+                            <li>蜂蜜</li>
+                            <li>软籽石榴</li>
+                        </ul>
+                    </div>
+                    <div class="right fr">
+                        <a href="./html/car.html">
+                            <div class="car">
+                                <i class="car_1 fl">
+                                    <b>3</b>
+                                </i>
+                                <i class="list fr"></i>
+                                <span class="fr">立即去结算</span>
+                                <div class="carlist"></div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="daohang">
+                    <div class="fenlei fl">
+                        全部商品分类<i class="fr"></i>
+                    </div>
+                    <ul class="fl">
+                        <li class="li_1">首页</li>
+                        <li>礼品卡卷</li>
+                        <li>安心宅配</li>
+                        <li>产地特色预定</li>
+                        <li>企业定制</li>
+                        <li>活动专区</li>
+                        <li>食尚资讯</li>
+                        <li>依谷扶贫</li>
+                    </ul>
+                </div>
+                <div class="zonglei">
+                    <ul> <span>水果蔬菜</span>
+                        <li><b>国产水果</b>
+                        <li>苹果</li>
+                        <li>梨</li>
+                        <li>其他</li>
+                        </li>
+                        <li><b>进口水果</b>
+                        <li>美国</li>
+                        <li>英国</li>
+                        <li>其他</li>
+                        </li>
+                        <li><b>新鲜蔬菜</b>
+                        <li>叶菜</li>
+                        <li>特色蔬菜</li>
+                        <li>其他</li>
+                        </li>
+                    </ul>
+                    <ul><span>肉禽蛋奶</span>
+                        <li><b>无肉不欢</b>
+                        <li>进口肉类</li>
+                        <li>牛肉</li>
+                        <li>其他</li>
+                        </li>
+                        <li><b>水产海鲜</b>
+                        <li>虾兵蟹将</li>
+                        <li>珍品贝类</li>
+                        <li>淡鱼海鱼</li>
+                        </li>
+                    </ul>
+                    <ul><span>粮油副食</span>
+                        <li><b>国产水果</b>
+                        <li>苹果</li>
+                        <li>梨</li>
+                        <li>其他</li>
+                        </li>
+                        <li><b>进口水果</b>
+                        <li>美国</li>
+                        <li>英国</li>
+                        <li>其他</li>
+                        </li>
+                        <li><b>新鲜蔬菜</b>
+                        <li>叶菜</li>
+                        <li>特色蔬菜</li>
+                        <li>其他</li>
+                        </li>
+                    </ul>
+                    <ul><span>零食酒饮</span>
+                        <li><b>国产水果</b>
+                        <li>梨</li>
+                        <li>其他</li>
+                        </li>
+                        <li><b>进口水果</b>
+                        <li>美国</li>
+                        <li>其他</li>
+                        </li>
+                        <li><b>新鲜蔬菜</b>
+                        <li>叶菜</li>
+                        <li>特色蔬菜</li>
+                        <li>其他</li>
+                        </li>
+                    </ul>
+                    <ul><span>主题场景</span>
+                        <li><b>国产水果</b>
+                        <li>苹果</li>
+                        <li>梨</li>
+                        <li>其他</li>
+                        </li>
+                        <li><b>进口水果</b>
+                        <li>美国</li>
+                        <li>英国</li>
+                        <li>其他</li>
+                        </li>
+                        <li><b>新鲜蔬菜</b>
+                        <li>特色蔬菜</li>
+                        <li>其他</li>
+                        </li>
+                    </ul>
+                    <ul><span>这箱有礼</span>
+                        <li><b>国产水果</b>
+                        <li>苹果</li>
+                        <li>其他</li>
+                        </li>
+                        <li><b>进口水果</b>
+                        <li>美国</li>
+                        <li>英国</li>
+                        <li>其他</li>
+                        </li>
+                        <li><b>新鲜蔬菜</b>
+                        <li>叶菜</li>
+                        <li>特色蔬菜</li>
+                        <li>其他</li>
+                        </li>
+                    </ul>
+                    <ul><span>生活产品</span>
+                        <li><b>国产水果</b>
+                        <li>苹果</li>
+                        <li>梨</li>
+                        <li>其他</li>
+                        </li>
+                        <li><b>进口水果</b>
+                        <li>英国</li>
+                        <li>其他</li>
+                        </li>
+                        <li><b>新鲜蔬菜</b>
+                        <li>叶菜</li>
+                        <li>特色蔬菜</li>
+                        <li>其他</li>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div id="nav">
+            <div class="swiper-container" id="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide" style="background: lavender;"><img src="./images/1535100212244.jpg"></div>
+                    <div class="swiper-slide" style="background: lavenderblush;"><img src="./images/1537940716759.jpg"></div>
+                    <div class="swiper-slide" style="background: lawngreen;"><img src="./images/1539236515682.jpg"></div>
+                    <div class="swiper-slide" style="background: lemonchiffon;"><img src="./images/1540139304382.jpg"></div>
+                    <div class="swiper-slide" style="background: lightcoral;"><img src="./images/1540264004636.jpg"></div>
+                </div>
+                <!--分页-->
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+
+        <div id="main"><a href="./html/list.html">
+                <div class="container">
+                    <div class="theone">
+                        <ul class="one">
+                            all<li class="first"><img src="./images/pro_hd_01.jpg"></li>
+                            <li><img src="./images/pro_hd_02.jpg"></li>
+                            <li><img src="./images/pro_hd_03.jpg"></li>
+                            <li><img src="./images/pro_hd_07.jpg"></li>
+                        </ul>
+                    </div>
+                    <div class="thetwo">
+                        <div class="left fl">
+                            <ul class="two">
+                                <li><img src="./images/1538185177930.jpg"></li>
+                                <li><img src="./images/1539160745452.jpg"></li>
+                            </ul>
+                        </div>
+                        <div class="right fr">
+                            <div class="biaoti"><img src="./images/bzbp-title.png"></div>
+                            <div class="biaoti_left fl"><img src="./images/1539761475743.jpg" width="388" height="388"></div>
+                            <div class="biaoti_right">
+                                <ul class="fr">
+                                    <li><img src="./images/1539761475743.jpg" width="88" height="88"></li>
+                                    <li><img src="./images/1539761511298.jpg" width="88" height="88"></li>
+                                    <li><img src="./images/1539761558056.jpg" width="88" height="88"></li>
+                                    <li><img src="./images/1539761582046.jpg" width="88" height="88"></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="thethree">
+                        <img src="./images/GFcard.png" width="1208" height="151">
+                    </div>
+                    <div class="thefour">
+                        <div class="four_left fl">
+                            <div class="four_left_one">
+                                <i class="one"><span>水果蔬菜</span></i>
+                            </div>
+                            <div class="four_left_two">
+                                <img src="./images/1534212639645.jpg">
+                            </div>
+                        </div>
+                        <div class="four_right fl">
+                            <div class="four_right_one fl">
+                                <img src="./images/1534387623062.jpg">
+                            </div>
+                            <ul class="four_right_two fl">
+                                <li>
+                                    <img src="./images/20180912173373034.jpg">
+                                    <div class="title">环江香柚礼盒（2个装）</div>
+                                    <div class="fl">￥68</div>
+                                    <div class="fr">￥88</div>
+                                </li>
+                                <li>
+                                    <img src="./images/201805071632237046.jpg">
+                                    <div class="title">菲律宾进口香蕉1.2kg</div>
+                                    <div class="fl">￥23.8</div>
+                                    <div class="fr">￥29.8</div>
+                                </li>
+                            </ul>
+                            <ul class="four_right_three">
+                                <li>
+                                    <img src="./images/201508181444953026.jpg">
+                                    <div class="title">云南蒙自甜石榴2.5kg</div>
+                                    <div class="fl">￥68</div>
+                                    <div class="fr">￥74.9</div>
+                                </li>
+                                <li>
+                                    <img src="./images/201808301735166058.jpg">
+                                    <div class="title">突尼斯软籽石榴6枚装（礼盒）</div>
+                                    <div class="fl">￥138</div>
+                                    <div class="fr">￥168</div>
+                                </li>
+                            </ul>
+                            <div class="four_right_four">
+                                <img src="./images/1539073540175.jpg">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="thefive">
+                        <img src="./images/flower.png" width="1208" height="219">
+                    </div>
+                    <div class="thesix">
+                        <div class="four_left fl">
+                            <div class="four_left_one">
+                                <i class="two"><span>肉禽蛋奶</span></i>
+                            </div>
+                            <div class="four_left_two">
+                                <img src="./images/1535533575155.jpg">
+                            </div>
+                        </div>
+                        <div class="four_right fl">
+                            <div class="four_right_one fl">
+                                <img src="./images/1534387623062.jpg">
+                            </div>
+                            <ul class="four_right_two fl">
+                                <li>
+                                    <img src="./images/201807021142190040.jpg">
+                                    <div class="title">环江香柚礼盒（2个装）</div>
+                                    <div class="fl">￥68</div>
+                                    <div class="fr">￥88</div>
+                                </li>
+                                <li>
+                                    <img src="./images/201804181108842002.jpg">
+                                    <div class="title">菲律宾进口香蕉1.2kg</div>
+                                    <div class="fl">￥23.8</div>
+                                    <div class="fr">￥29.8</div>
+                                </li>
+                            </ul>
+                            <ul class="four_right_three">
+                                <li>
+                                    <img src="./images/201806281108827041.jpg">
+                                    <div class="title">云南蒙自甜石榴2.5kg</div>
+                                    <div class="fl">￥68</div>
+                                    <div class="fr">￥74.9</div>
+                                </li>
+                                <li>
+                                    <img src="./images/201806290938286028.jpg">
+                                    <div class="title">突尼斯软籽石榴6枚装（礼盒）</div>
+                                    <div class="fl">￥138</div>
+                                    <div class="fr">￥168</div>
+                                </li>
+                            </ul>
+                            <div class="four_right_four">
+                                <img src="./images/1539073540175.jpg">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="theseven">
+                        <img src="./images/commodity.png" width="1208" height="219">
+                    </div>
+                    <div class="theeight">
+                        <div class="four_left fl">
+                            <div class="four_left_one">
+                                <i class="three"><span>油粮副食</span></i>
+                            </div>
+                            <div class="four_left_two">
+                                <img src="./images/1523868863279.jpg">
+                            </div>
+                        </div>
+                        <div class="four_right fl">
+                            <div class="four_right_one fl">
+                                <img src="./images/1534387623062.jpg">
+                            </div>
+                            <ul class="four_right_two fl">
+                                <li>
+                                    <img src="./images/201809031820263011.jpg">
+                                    <div class="title">环江香柚礼盒（2个装）</div>
+                                    <div class="fl">￥68</div>
+                                    <div class="fr">￥88</div>
+                                </li>
+                                <li>
+                                    <img src="./images/201810091014902013.jpg">
+                                    <div class="title">菲律宾进口香蕉1.2kg</div>
+                                    <div class="fl">￥23.8</div>
+                                    <div class="fr">￥29.8</div>
+                                </li>
+                            </ul>
+                            <ul class="four_right_three">
+                                <li>
+                                    <img src="./images/20181009111986027.jpg">
+                                    <div class="title">云南蒙自甜石榴2.5kg</div>
+                                    <div class="fl">￥68</div>
+                                    <div class="fr">￥74.9</div>
+                                </li>
+                                <li>
+                                    <img src="./images/201805080918434003.jpg">
+                                    <div class="title">突尼斯软籽石榴6枚装（礼盒）</div>
+                                    <div class="fl">￥138</div>
+                                    <div class="fr">￥168</div>
+                                </li>
+                            </ul>
+                            <div class="four_right_four">
+                                <img src="./images/1539073540175.jpg">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="thenine">
+                        <img src="./images/wine.png" width="1208" height="219">
+                    </div>
+                    <div class="theten">
+                        <div class="four_left fl">
+                            <div class="four_left_one">
+                                <i class="four"><span>零食酒饮</span></i>
+                            </div>
+                            <div class="four_left_two">
+                                <img src="./images/1532336942758.png">
+                            </div>
+                        </div>
+                        <div class="four_right fl">
+                            <div class="four_right_one fl">
+                                <img src="./images/1523869030567.jpg">
+                            </div>
+                            <ul class="four_right_two fl">
+                                <li>
+                                    <img src="./images/201809031155883051.jpg">
+                                    <div class="title">环江香柚礼盒（2个装）</div>
+                                    <div class="fl">￥68</div>
+                                    <div class="fr">￥88</div>
+                                </li>
+                                <li>
+                                    <img src="./images/201807111712510017.jpg">
+                                    <div class="title">菲律宾进口香蕉1.2kg</div>
+                                    <div class="fl">￥23.8</div>
+                                    <div class="fr">￥29.8</div>
+                                </li>
+                            </ul>
+                            <ul class="four_right_three">
+                                <li>
+                                    <img src="./images/201508181444953026.jpg">
+                                    <div class="title">云南蒙自甜石榴2.5kg</div>
+                                    <div class="fl">￥68</div>
+                                    <div class="fr">￥74.9</div>
+                                </li>
+                                <li>
+                                    <img src="./images/201808301735166058.jpg">
+                                    <div class="title">突尼斯软籽石榴6枚装（礼盒）</div>
+                                    <div class="fl">￥138</div>
+                                    <div class="fr">￥168</div>
+                                </li>
+                            </ul>
+                            <div class="four_right_four">
+                                <img src="./images/1527039210314.png">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="theeleven">
+                        <div class="four_left fl">
+                            <div class="four_left_one">
+                                <i class="five"><span>主题场景</span></i>
+                            </div>
+                            <div class="four_left_two">
+                                <img src="./images/1520924197026.jpg">
+                            </div>
+                        </div>
+                        <div class="four_right fl">
+                            <div class="four_right_one fl">
+                                <img src="./images/1520924340253.jpg">
+                            </div>
+                            <ul class="four_right_two fl">
+                                <li>
+                                    <img src="./images/201708231644120002.jpg">
+                                    <div class="title">环江香柚礼盒（2个装）</div>
+                                    <div class="fl">￥68</div>
+                                    <div class="fr">￥88</div>
+                                </li>
+                                <li>
+                                    <img src="./images/20180606093995022.jpg">
+                                    <div class="title">菲律宾进口香蕉1.2kg</div>
+                                    <div class="fl">￥23.8</div>
+                                    <div class="fr">￥29.8</div>
+                                </li>
+                            </ul>
+                            <ul class="four_right_three">
+                                <li>
+                                    <img src="./images/201809071517347046.jpg">
+                                    <div class="title">云南蒙自甜石榴2.5kg</div>
+                                    <div class="fl">￥68</div>
+                                    <div class="fr">￥74.9</div>
+                                </li>
+                                <li>
+                                    <img src="./images/201411281518378034.jpg">
+                                    <div class="title">突尼斯软籽石榴6枚装（礼盒）</div>
+                                    <div class="fl">￥138</div>
+                                    <div class="fr">￥168</div>
+                                </li>
+                            </ul>
+                            <div class="four_right_four">
+                                <img src="./images/1520925246634.jpg">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="thetwelve">
+                        <div class="four_left fl">
+                            <div class="four_left_one">
+                                <i class="six"><span>这箱有礼</span></i>
+                            </div>
+                            <div class="four_left_two">
+                                <img src="./images/1531794234257.jpg">
+                            </div>
+                        </div>
+                        <div class="four_right fl">
+                            <div class="four_right_one fl">
+                                <img src="./images/1534387623062.jpg">
+                            </div>
+                            <ul class="four_right_two fl">
+                                <li>
+                                    <img src="./images/201804191126333010.jpg">
+                                    <div class="title">环江香柚礼盒（2个装）</div>
+                                    <div class="fl">￥68</div>
+                                    <div class="fr">￥88</div>
+                                </li>
+                                <li>
+                                    <img src="./images/201803151547834029.jpg">
+                                    <div class="title">菲律宾进口香蕉1.2kg</div>
+                                    <div class="fl">￥23.8</div>
+                                    <div class="fr">￥29.8</div>
+                                </li>
+                            </ul>
+                            <ul class="four_right_three">
+                                <li>
+                                    <img src="./images/201808021620715003.jpg">
+                                    <div class="title">云南蒙自甜石榴2.5kg</div>
+                                    <div class="fl">￥68</div>
+                                    <div class="fr">￥74.9</div>
+                                </li>
+                                <li>
+                                    <img src="./images/201803301040118034.jpg">
+                                    <div class="title">突尼斯软籽石榴6枚装（礼盒）</div>
+                                    <div class="fl">￥138</div>
+                                    <div class="fr">￥168</div>
+                                </li>
+                            </ul>
+                            <div class="four_right_four">
+                                <img src="./images/1539073540175.jpg">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="thethirteen">
+                        <div class="four_left fl">
+                            <div class="four_left_one">
+                                <i class="seven"><span>生活用品</span></i>
+                            </div>
+                            <div class="four_left_two">
+                                <img src="./images/1523958683004.jpg">
+                            </div>
+                        </div>
+                        <div class="four_right fl">
+                            <div class="four_right_one fl">
+                                <img src="./images/1520926684255.jpg">
+                            </div>
+                            <ul class="four_right_two fl">
+                                <li>
+                                    <img src="./images/201708011139224035.jpg">
+                                    <div class="title">环江香柚礼盒（2个装）</div>
+                                    <div class="fl">￥68</div>
+                                    <div class="fr">￥88</div>
+                                </li>
+                                <li>
+                                    <img src="./images/201709061138158031.jpg">
+                                    <div class="title">菲律宾进口香蕉1.2kg</div>
+                                    <div class="fl">￥23.8</div>
+                                    <div class="fr">￥29.8</div>
+                                </li>
+                            </ul>
+                            <ul class="four_right_three">
+                                <li>
+                                    <img src="./images/201711061507367009.jpg">
+                                    <div class="title">云南蒙自甜石榴2.5kg</div>
+                                    <div class="fl">￥68</div>
+                                    <div class="fr">￥74.9</div>
+                                </li>
+                                <li>
+                                    <img src="./images/201711211136146038.jpg">
+                                    <div class="title">突尼斯软籽石榴6枚装（礼盒）</div>
+                                    <div class="fl">￥138</div>
+                                    <div class="fr">￥168</div>
+                                </li>
+                            </ul>
+                            <div class="four_right_four">
+                                <img src="./images/1524016371387.jpg">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <div id="link">
+            <div class="youdian container">
+                <ul>
+                    <li>
+                        <div class="fl"><img src="./images/index-bottom-dao.png"></div>
+                        <div class="fl title">次日送达</div>
+                        <span>当天16点前下单第二天送达</span>
+                    </li>
+                    <li>
+                        <div class="fl"><img src="./images/index-bottom-dai.png"></div>
+                        <div class="fl title">货到付款</div>
+                        <span>货到网银多种支付方式</span>
+                    </li>
+                    <li>
+                        <div class="fl"><img src="./images/index-bottom-song.png"></div>
+                        <div class="fl title">冷链配送</div>
+                        <span>基地到餐桌全程冷链</span>
+                    </li>
+                    <li>
+                        <div class="fl"><img src="./images/index-bottom-tui.png"></div>
+                        <div class="fl title">24小时退换货</div>
+                        <span>专业解答 为您解惑</span>
+                    </li>
+                    <li>
+                        <div class="fl"><img src="./images/index-bottom-xuan.png"></div>
+                        <div class="fl title">基地优选食材</div>
+                        <span>依谷更懂您的需求</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="newslist container">
+                <div class="list fl">
+                    <div class="news">
+                        <div class="all">依谷有话说</div>
+                        <div class="img fl">
+                            <img src="./images/1484587824775.jpg">
+                        </div>
+                        <div class="newses">
+                            <ul>
+                                <li>
+                                    <span>国庆期间物流配送公告</span>
+                                    <p>尊敬的客户：您好！值此国庆佳节来临之际，依谷网在此感谢您长期以来对我们的信任与支持！为了不影响您的正常购物，现将国庆期间有关配送服务事项告知如下：由于多数第三方快递、物流公司停单放假，9月30</p>
+                                </li>
+                                <li><span>中秋期间物流配送公告</span>
+                                    <p>尊敬的客户：
+                                        您好！值此中秋佳节来临之际，依谷网在此感谢您长期以来对我们的信任与支持！为了不影响您的正常购物，现将中秋期间有关配送服务事项告知如下：由于多数第三方快递、物流公司停单放假，9月24日下的订单，将在9月26日起依次恢复配送。400客服电话以及在线客服9月24日暂停服务，将于9月25号恢复服务。期间订单可以正常提交。不便之处，敬请谅解！
+                                        最后依谷网恭祝您中秋快乐、阖家幸福！ </p>
+                                </li>
+                                <li><span>关于客户热线4001100755暂停服务的通知</span>
+                                    <p>尊敬的依谷网客户：您好，受超强台风“山竹”影响，造成公司大面积停电，期间订单可以照常提交，4001100755客服电话和在线客服将暂时无法正常使用。9月17日将恢复正常使用，如有不便还请谅解，感谢您对依谷网的支持！</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="bt-lf">
+                        <ul>
+                            <li><span>购物指南</span></li>
+                            <li>会员注册</li>
+                            <li>套餐卡使用方法</li>
+                            <li>谷穗卡使用方法</li>
+                            <li>积分兑换</li>
+                        </ul>
+                        <ul>
+                            <li><span>付款方式</span></li>
+                            <li>线上支付</li>
+                            <li>发票说明</li>
+                            <li>货到付款</li>
+                            <li>余额支付</li>
+                        </ul>
+                        <ul>
+                            <li><span>商品配送</span></li>
+                            <li>买家自取</li>
+                            <li>配送时间</li>
+                            <li>冷链配送</li>
+                            <li>送货范围及费用</li>
+                        </ul>
+                        <ul>
+                            <li><span>售后服务</span></li>
+                            <li>签收与评价</li>
+                            <li>常见问题</li>
+                            <li>退换货说明</li>
+                            <li>品质保障</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="img fr">
+                    <div class="tonggao">
+                        <ul>
+                            <li><img src="./images/index-about.jpg"></li>
+                            <li><img src="./images/index-commonweal.jpg"></li>
+                            <li><img src="./images/index-statement.jpg"></li>
+                            <li><img src="./images/index-job.jpg"></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="foot">
+            <div class="container">
+                <img src="./images/1540369343(1).jpg">
+            </div>
+        </div>
+
+        <div id="fix">
+            <div class="top">
+                <ul>
+                    <li>
+                        <i class="geren"></i>
+                    </li>
+                    <li>
+                        <i class="car_right"></i>
+                        <div class="span">购物车</div>
+                        <span>3</span>
+                    </li>
+                    <li>
+                        <i class="zuji"></i>
+                    </li>
+                    <li>
+                        <i class="shoucang"></i>
+                    </li>
+                </ul>
+            </div>
+            <div class="bottom">
+                <ul>
+                    <li><a href="#">
+                            <i class="kefu"></i></a>
+                    </li>
+                    <li><a href="#">
+                            <i class="phone"></i></a>
+                    </li>
+                    <li><a href="#">
+                            <span>反馈意见</span></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div id="head_nav">
+            <div class="container">
+                <div class="logo">
+                    <img src="./images/logo.png" alt="">
+                </div>
+                <div class="right fr">
+                    <a href="./html/car.html">
+                        <div class="head_car">
+                            <i class="head_car_1 fl">
+                                <b>3</b>
+                            </i>
+                            <i class="list fr"></i>
+                            <span class="fr">立即去结算</span>
+                            <div class="head_carlist carlist"></div>
+                        </div>
+                    </a>
+                </div>
+                <div class="center fl">
+                    <input type="text" placeholder="请输入想购买的商品">
+                    <i></i>
+                    <ul>
+                        <li>柚子</li>
+                        <li>蜂蜜</li>
+                        <li>软籽石榴</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,73 @@
+#main .toobar {
+    width: 100%;
+    height: 30px;
+    background: #fd7400;
+}
+
+#main .toobar button {
+    height: 30px;
+    width: 100px;
+    margin: 0 20px;
+}
+
+#goodslist ul {
+    width: 100%;
+}
+
+#goodslist ul li {
+    width: 300px;
+    height: 370px;
+    text-align: center;
+    float: left;
+    padding: 0 50px 10px 50px;
+    border: 1px solid #ccc
+}
+
+#goodslist ul li img {
+    width: 300px;
+    height: 300px;
+}
+
+#goodslist ul li .new {
+    color: red;
+    font-weight: bolder;
+}
+
+.datalist {
+    border: 1px solid #ddd;
+    padding: 15px;
+}
+
+.datalist li {
+    padding: 15px 5px;
+    border-bottom: 1px dotted #ccc;
+}
+
+.datalist li h4 {
+    margin: 0;
+}
+
+#page span {
+    display: inline-block;
+    margin: 5px;
+    width: 40px;
+    line-height: 1.8;
+    text-align: center;
+    background-color: #dfdfdf;
+    color: #666;
+}
+
+#page span.active {
+    background-color: #fc0;
+    color: #fff;
+}
+
+#showMore {
+    width: 640px;
+    margin: 0 0 10px 0;
+    padding: 10px;
+    border: 1px solid #CCC;
+    background-color: white;
+    text-align: center;
+    cursor: pointer;
+}

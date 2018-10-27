@@ -1,0 +1,94 @@
+#main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 580px;
+    height: 600px;
+    margin-top: -300px;
+    margin-left: -290px;
+    background: #fff;
+}
+
+#main ul {
+    width: 500px;
+    float: left;
+    margin: 20px 40px 20px 40px;
+}
+
+#main ul li {
+    padding-top: 20px;
+    width: 500px;
+    height: 52px;
+}
+
+#main ul li .b {
+    font-size: 36px;
+}
+
+#main ul li span {
+    text-align: right;
+    font-size: 16px;
+    line-height: 45px;
+}
+
+#main ul li span a {
+    color: #fd7400;
+}
+
+#main ul li label {
+    float: left;
+    width: 55px;
+    height: 52px;
+    float: left;
+    padding: 11px 15px;
+    font-weight: 100;
+    line-height: 30px;
+    background: #aaa;
+}
+
+#main ul li input {
+    float: left;
+    height: 52px;
+    line-height: 30px;
+    color: #c9c9c9;
+    font-size: 16px;
+    padding: 10px;
+    width: 350px;
+    border: 1px solid #dedede;
+    background: none;
+}
+
+#main ul .yanzheng input {
+    width: 200px;
+}
+
+#main ul .yanzheng span {
+    width: 150px;
+    height: 52px;
+    background: #fd7400;
+    float: left;
+    color: #c200fd;
+    text-align: center;
+    font-size: 20px;
+    line-height: 52px;
+}
+
+#main ul .check {
+    font-size: 22px;
+}
+
+#main ul .check input {
+    width: 25px;
+    height: 25px;
+}
+
+#main .btn {
+    float: left;
+    width: 500px;
+    text-align: center;
+    height: 54px;
+    line-height: 40px;
+    color: #fff;
+    font-size: 20px;
+    background: #fd7400;
+}

@@ -1,0 +1,105 @@
+#main .login {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 580px;
+    height: 626px;
+    margin-top: -306px;
+    margin-left: -290px;
+    z-index: 99;
+    color: #fff;
+    opacity: 0.7;
+    background: #333;
+}
+
+#main .login ul {
+    width: 500px;
+    float: left;
+    margin: 20px 40px 20px 40px;
+}
+
+#main .login ul li {
+    width: 500px;
+    height: 52px;
+}
+
+#main .login ul .b {
+    font-size: 36px;
+}
+
+#main .login ul span {
+    text-align: right;
+    font-size: 16px;
+    line-height: 45px;
+}
+
+#main .login ul span a {
+    color: #fd7400;
+}
+
+#main .login label {
+    float: left;
+    padding: 11px 15px;
+    width: 25px;
+    font-weight: 100;
+    line-height: 30px;
+    height: 30px;
+    background: #aaa;
+}
+
+#main .login input {
+    float: left;
+    height: 30px;
+    line-height: 30px;
+    color: #c9c9c9;
+    font-size: 16px;
+    padding: 10px;
+    width: 420px;
+    border: 1px solid #dedede;
+}
+
+#main ul .yanzhengma input {
+    width: 270px;
+}
+
+#main ul .yanzhengma span {
+    width: 150px;
+    height: 52px;
+    background: #fd7400;
+    float: left;
+    color: #c200fd;
+    text-align: center;
+    font-size: 20px;
+    line-height: 52px;
+}
+
+#main ul .check {
+    font-size: 22px;
+    height: 52px;
+    line-height: 52px;
+}
+
+#main ul .check input {
+    width: 25px;
+    height: 25px;
+    margin: 14px 5px 0 0;
+}
+
+#main ul .check span {
+    float: right;
+}
+
+#main .btn {
+    float: left;
+    width: 500px;
+    text-align: center;
+    height: 54px;
+    line-height: 40px;
+    color: #fff;
+    font-size: 20px;
+    background: #fd7400;
+}
+
+#main ul .fenge {
+    text-align: center;
+}

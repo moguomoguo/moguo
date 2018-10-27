@@ -1,0 +1,921 @@
+/*(1)清除默认样式*/
+html,
+body,
+ul,
+li,
+ol,
+dl,
+dd,
+dt,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+form,
+fieldset,
+legend,
+img,
+input {
+    margin: 0;
+    padding: 0;
+}
+
+fieldset,
+img,
+input,
+button {
+    border: 0 none;
+    padding: 0;
+    margin: 0;
+    outline-style: none;
+}
+
+/*去掉input等聚焦时的蓝色边框*/
+ul,
+li,
+ol {
+    list-style: none;
+}
+
+select,
+input {
+    vertical-align: middle;
+}
+
+/*select, input, textarea { font-size:12px; margin:0; }*/
+textarea {
+    resize: none;
+}
+
+/*防止拖动*/
+img {
+    border: 0;
+    vertical-align: middle;
+}
+
+/*  去掉图片低测默认的3像素空白缝隙，或者用display：block也可以*/
+table {
+    border-collapse: collapse;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*（2）添加公共样式*/
+/*body {
+    font:12px Arial,Verdana,"\5b8b\4f53";
+    color:#666;
+    background:#fff;
+}*/
+/*清除浮动（不管）*/
+.clearfix:after {
+    content: "";
+    display: block;
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
+    clear: both;
+    zoom: 1;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: normal;
+    font-size: 1em;
+}
+
+/*设置h标签的大小，设置跟父亲一样大的字体font-size:100%;*/
+s,
+i,
+em {
+    font-style: normal;
+    text-decoration: none;
+}
+
+
+/*公共类*/
+.container {
+    /*内容、版心 提取 */
+    width: 1208px;
+    /*background-color:yellow;*/
+    margin: 0 auto;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.ac {
+    text-align: center;
+}
+
+.hide {
+    display: none;
+}
+
+.f12 {
+    font-size: 12px;
+}
+
+.f14 {
+    font-size: 14px;
+}
+
+.f16 {
+    font-size: 16px;
+}
+
+/*(3)公共部分的样式*/
+#header {
+    height: 119px;
+    margin: auto;
+    border-bottom: 1px solid #ddd;
+    position: relative;
+}
+
+.header_top {
+    overflow: hidden;
+    line-height: 30px;
+    padding: 0 14px;
+    position: relative;
+    font-size: 12px;
+    color: #fff;
+    background-color: #FF5071;
+}
+
+.header_top ul {
+    float: left;
+    overflow: hidden;
+}
+
+.header_top ul:nth-child(1) li {
+    float: left;
+}
+
+.write {
+    padding-top: 6px;
+}
+
+.write i {
+    display: block;
+    width: 18px;
+    height: 18px;
+    vertical-align: middle;
+    background: url('../img/meimei.png') 0 0 no-repeat;
+}
+
+#header .top_right {
+    float: right;
+    overflow: hidden;
+}
+
+.top_right li {
+    float: left;
+    margin-left: 16px;
+}
+
+.top_right li a {
+    cursor: pointer;
+    color: #fff;
+    position: relative;
+    font-size: 13px;
+}
+
+.top_right li .icon-left {
+    padding-left: 20px;
+}
+
+.top_right li i.phone {
+    display: block;
+    width: 13px;
+    height: 19px;
+    vertical-align: middle;
+    background: url('../img/meimei.png') -60px 0 no-repeat;
+    position: absolute;
+    top: -4px;
+    left: 0;
+}
+
+.downloadapp {
+    z-index: 4;
+    position: absolute;
+    width: 154px;
+    top: 35px;
+    height: 105px;
+    left: -100px;
+    padding-left: 102px;
+    background: url(../img/erweima.png) no-repeat;
+}
+
+.downloadapp .qrcode-angel {
+    width: 15px;
+    height: 6px;
+    background: url("../img/meimei.png") -110px 0 no-repeat;
+    position: absolute;
+    left: 112px;
+    top: -6px;
+}
+
+.top_right li i.kefu {
+    width: 20px;
+    height: 19px;
+    vertical-align: middle;
+    background: url('../img/meimei.png') -30px 0 no-repeat;
+    position: absolute;
+    top: -2px;
+    left: 0;
+}
+
+/* 头部 */
+body,
+html {
+    height: 100%;
+}
+
+#header .header_b {
+    /*float: right;*/
+    height: 40px;
+    /*overflow: hidden;*/
+
+}
+
+.header_b .logo-wrap,
+.header_b .search {
+    height: 40px;
+    float: left;
+    padding: 25px 0;
+}
+
+.logo-wrap .logo strong {
+    position: absolute;
+    top: -999em;
+    left: -999em;
+    width: 0;
+    height: 0;
+    font-size: 0;
+    line-height: 0;
+    text-indent: -999px;
+    overflow: hidden;
+}
+
+.header_b .search {
+    margin-left: 110px;
+}
+
+.header_b form {
+    width: 425px;
+    height: 38px;
+    border: 1px solid #FF5071;
+    border-radius: 24px;
+    position: relative;
+    overflow: hidden;
+}
+
+.header_b form .sousuo {
+    float: left;
+    height: 36px;
+    width: 330px;
+    line-height: 36px;
+    border: none;
+    margin-left: 18px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.header_b form button {
+    position: absolute;
+    width: 30px;
+    float: left;
+    height: 23px;
+    border: none;
+    cursor: pointer;
+    background-color: #fff;
+    background: url("../img/meimei.png") -80px 0 no-repeat;
+    top: 7px;
+    right: 10px;
+}
+
+.header_b img.erweima {
+    margin-left: 114px;
+    height: 89px;
+}
+
+
+
+
+#footer-container {
+    background: #ffffff;
+    min-width: 1172px;
+    /*    position:absolute;*/
+
+}
+
+#footer-container .footer-row-first {
+    overflow: hidden;
+    background: #f3f1f2;
+    border-bottom: 1px solid #eaeaea;
+    border-top: 1px solid #eaeaea;
+}
+
+#footer-container .footer-row-first>div {
+    width: 25%;
+    padding: 40px 0;
+    text-align: center;
+    float: left;
+}
+
+.footer-row-first .f-l {
+    float: left;
+}
+
+.footer-row-first .f-l img {
+    vertical-align: middle;
+    border: 0;
+}
+
+#footer-container .first-co {
+    text-align: center;
+    font-size: 20px;
+    color: rgb(51, 51, 51);
+    font-weight: bold;
+    line-height: 1.8;
+    margin-top: 10px;
+}
+
+#footer-container .footer-row-secondary {
+    padding: 40px 0;
+    overflow: hidden;
+}
+
+#footer-container .footer-sec-wrap {
+    overflow: hidden;
+}
+
+#footer-container .footer-sec-wrap-first {
+    width: 33%;
+    float: left;
+}
+
+#footer-container .footer-sec-wrap-first .qr-code {
+    /*position: relative;*/
+    display: none;
+}
+
+#footer-container .qr-code.download {
+    position: absolute;
+    right: -40px;
+    top: -130px;
+    left: auto;
+}
+
+#footer-container .qr-code.wechat-qr {
+    position: absolute;
+    top: -130px;
+    right: -25px;
+}
+
+#footer-container .qr-code.sina {
+    position: absolute;
+    top: -130px;
+    right: 122px;
+}
+
+#footer-container .download {
+    position: absolute;
+    bottom: 0;
+    width: 149px;
+    height: 40px;
+    left: 17px;
+}
+
+
+
+
+#footer-container .footer-sec-wrap-sec {
+    width: 67%;
+    float: left;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.qr-code-wrapper .f-1 {
+    float: left;
+}
+
+#footer-container .footer-sec-wrap-sec ul {
+    border-left: 1px solid #eaeaea;
+    width: 24%;
+    text-align: left;
+}
+
+#footer-container .footer-sec-wrap-sec ul .f-l {
+    float: left;
+}
+
+#footer-container .footer-sec-wrap-sec ul li {
+    padding: 7px 0;
+    font-size: 14px;
+    color: rgb(51, 51, 51);
+    margin-left: 35px;
+}
+
+.footer-sec-wrap-sec ul li a {
+    color: #333333;
+}
+
+.footer-sec-wrap-sec ul li a:hover {
+    color: #ff5073;
+}
+
+#footer-container .footer-sec-wrap-sec ul li.sec-title {
+    font-size: 18px;
+    color: rgb(51, 51, 51);
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+
+
+
+
+#footer-container .footer-row-third {
+    padding: 15px 0;
+    border-top: 1px solid #eaeaea;
+}
+
+#footer-container .footer-row-third .title {
+    font-size: 14px;
+    color: rgb(51, 51, 51);
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#footer-container .cs>span {
+    color: rgb(51, 51, 51);
+    font-size: 14px;
+}
+
+
+#footer-container .coright {
+    line-height: 30px;
+    font-size: 12px;
+    color: #aaaaaa;
+    border-top: 1px solid #eaeaea;
+    padding: 5px 0;
+}
+
+#footer-container .coright>.f-l {
+    margin-left: 150px;
+}
+
+.f-l {
+    float: left;
+}
+
+.f-r {
+    float: right;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.pic-item {
+    float: left;
+    width: 24%;
+    height: 365px;
+}
+
+.bar-aside {
+    position: fixed;
+    width: 40px;
+    height: 100%;
+    top: 0;
+    right: 0;
+    background-color: rgba(3, 3, 3, .5);
+    text-align: center;
+}
+
+.bar-aside .iconfont {
+    color: white;
+}
+
+.bar-aside li {
+    position: relative;
+}
+
+.bar_t .buycar {
+    margin: 60px 0;
+    padding-bottom: 30px;
+}
+
+.h-car {
+    width: 280px;
+    height: 100%;
+    position: fixed;
+    background-color: #fff;
+    right: -280px;
+    top: 0;
+    z-index: 4;
+
+}
+
+.h-car .title {
+    font-weight: bold;
+    padding: 0 15px;
+    border-bottom: 1px solid #ccc;
+    height: 39px;
+    line-height: 39px;
+}
+
+.h-car .title button {
+    display: block;
+    text-align: center;
+    width: 40px;
+    height: 39px;
+    float: right;
+    font-size: 28px;
+    color: #000;
+    background-color: #fff;
+}
+
+.h-car .title button:hover {
+    background-color: #ccc;
+}
+
+.bar_t {
+    margin-bottom: 100px;
+
+}
+
+.bar_t li {
+    padding: 5px 0;
+    /*    margin-bottom: 20px;*/
+}
+
+.bar_t .buycar span {
+    display: block;
+    padding: 0 12px;
+    font-size: 16px;
+    color: #fff;
+}
+
+/*.bar_b{
+    margin-top: 50px;
+}*/
+.bar_b li {
+    padding: 5px 0;
+    color: #fff;
+}
+
+.bar-aside li:hover {
+    background-color: #ed145b;
+}
+
+.bar-aside li .tooltip {
+    position: absolute;
+    width: 100px;
+    height: 38px;
+    line-height: 38px;
+    text-align: center;
+    background-color: #666;
+    color: #FFF;
+    top: 0;
+    left: 0px;
+    display: none;
+
+}
+
+.bar-aside li .t_last {
+    height: 56px;
+    line-height: 56px;
+}
+
+.bar-aside li .tooltip i {
+    position: absolute;
+    color: #666;
+    right: -17px;
+}
+
+.kefu_h {
+    display: none;
+    width: 413px;
+    height: 508px;
+    position: absolute;
+    right: 50%;
+    bottom: 50%;
+    border: 1px solid #ccc;
+
+}
+
+.kefu_h h2 {
+    height: 45px;
+    line-height: 45px;
+    background-color: rgb(66, 151, 224);
+}
+
+.kefu_h h2 span {
+    margin-left: 70px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.kefu_h h2 i {
+    display: block;
+    float: right;
+    font-size: 36px;
+    width: 45px;
+    height: 45px;
+    color: #000;
+}
+
+.kefu_h h2 img {
+    position: absolute;
+}
+
+.kefu_h .chat {
+    height: 453px;
+}
+
+.kefu_h .chat textarea {
+    height: 320px;
+    width: 100%;
+}
+
+.kefu_h .chat input {
+    height: 133px;
+    width: 100%;
+    background-color: #ccc;
+}
+
+/* 右侧边栏 */
+/* .gou-cart{
+    z-index: 201;
+    position: fixed;
+    right: -280px;
+    bottom: 0;
+    width: 315px;
+    height: 100%;
+}
+.gou-cart .whole{
+    height: 100%;
+    position: relative;
+}
+.cart-nav{
+    z-index: 2;
+    position: absolute;
+    top: 0;
+    right: 280;
+    width: 35px;
+    height: 100%;
+    font-family: 'microsoft yahei',arial;
+    background: #444851;
+}
+.cart-nav-list{
+    z-index: 2;
+    position: absolute;
+    top: 38%;
+    left: 0;
+    width: 35px;
+    margin-top: -190px;
+    background: #444851;
+}
+.cart-nav-list ul li{
+    position: relative;
+}
+.cart-nav-list a{
+    z-index: 1;
+    position: relative;
+    top: 0;
+    left: 0px;
+    display: block;
+    line-height: 200px;
+    width: 35px;
+    height: 30px;
+    margin: 5px 0;
+    padding: 0;
+    text-decoration: none;
+    color: #d8d8d8;
+    font-size: 12px;
+    background-color: #444851;
+    overflow: hidden;
+}
+.cart-nav-list a i {
+    display: block;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 35px;
+    height: 30px;
+}
+
+
+.cart-nav-list li {
+    position: relative;
+}
+.cart-nav-list a.message_list {
+    height: 133px;
+    line-height: 16px;
+    margin: 5px 0 5px;
+    color: #fff;
+}
+.cart-nav-list a i {
+    display: block;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 35px;
+    height: 30px;
+}
+.cart-nav-list a.message_list .span {
+    display: block;
+    width: 16px;
+    height: 48px;
+    margin: 38px 0 0 12px;
+    cursor: pointer;
+    color: #fff;
+}
+.cart-nav-list a.message_list .cart_num {
+    display: block;
+    width: 21px;
+    height: 21px;
+    margin: 9px 0 0 7px;
+    text-align: center;
+    line-height: 21px;
+    background: #ca3619;
+    border-radius: 50%;
+    cursor: pointer;
+    color: #fff;
+}
+.cart-nav-list.bot {
+    top: auto;
+    bottom: 0px;
+}
+.cart-nav-list.bot ul li{
+        display: list-item;
+    text-align: -webkit-match-parent;
+} */
+#buy_car {
+    z-index: 201;
+    position: fixed;
+    right: -280px;
+    /* right: 0; */
+    bottom: 0;
+    width: 315px;
+    height: 100%;
+    color: white;
+}
+
+#buy_car i {
+    display: block;
+    line-height: 30px;
+    color: #fff;
+    font-size: 24px;
+    text-align: center;
+    /* font-weight: bolder; */
+    padding: 0 5px;
+}
+
+.car_nav {
+    z-index: 2;
+    position: absolute;
+    top: 0;
+    right: 280px;
+    width: 35px;
+    height: 100%;
+    font-family: 'microsoft yahei', arial;
+    background: #444851;
+}
+
+.car_nav li {
+    position: relative;
+}
+
+.car_nav_t {
+    z-index: 2;
+    position: absolute;
+    top: 38%;
+    left: 0;
+    width: 35px;
+    height: 30%;
+    margin-top: -190px;
+    background: #444851;
+}
+
+.car_nav_t li {
+    padding: 15px 0;
+}
+
+.car_nav_t h3 {
+    padding: 0 10px;
+}
+
+.car_nav_b {
+    z-index: 2;
+    position: absolute;
+    top: 60%;
+    left: 0;
+    width: 35px;
+    margin-top: -140px;
+    background: #444851;
+}
+
+.car_nav_b li {
+    height: 40px;
+    padding: 15px 0;
+    /* margin-bottom:120px; */
+    margin-bottom: 0px;
+}
+
+.car_goods {
+
+    position: absolute;
+    right: 0px;
+    top: 0;
+    width: 280px;
+    height: 100%;
+    background: #6A5A51;
+}
+
+.car_goods .car_top {
+    height: 30px;
+    line-height: 30px;
+    padding: 0 10px;
+    font-size: 14px;
+    text-align: right;
+    background: #eee;
+}
+
+.car_goods .car_send {
+    line-height: 30px;
+    padding: 0 10px;
+    font-size: 13px;
+    background-color: #666;
+}
+
+.car_order_list {
+    /* height: 353px; */
+    width: 100%;
+    /* height: 100%; */
+    overflow-x: hidden;
+    padding: 0px 12px 0 0px;
+    overflow-y: auto;
+    background: #e7d5d5;
+}
+
+.car_goods_count {
+    padding: 0 8px;
+    height: 50px;
+    position: absolute;
+    width: 264px;
+    bottom: 0px;
+    background: #ccc;
+}
+
+.goods_right {
+    height: 32px;
+    margin-top: 10px;
+    line-height: 32px;
+    cursor: pointer;
+    width: 145px;
+    float: right;
+    background: #cc1d00;
+    text-align: center;
+}
+
+.goods_right button {
+    color: #fff;
+    margin: 0 auto;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 30px;
+    background: #cc1d00;
+}
+
+.txt-pro {
+    line-height: 30px;
+    position: absolute;
+    height: 30px;
+    background: #333333;
+
+    text-align: center;
+}
+
+.txt-pro a {
+    color: #fff;
+}
